@@ -47,6 +47,48 @@ c b d d c c b 5 5 5 5 5 5 5 b .
 
     helpers._registerFactory("animation", function(name: string) {
         switch(helpers.stringTrim(name)) {
+            case "myAnim0":
+            case "anim2":return [img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . f f 6 6 6 6 6 6 6 . . . 
+. . . . f 6 d d d d d d 6 . . . 
+. . . f f d 1 1 1 1 1 1 d 6 . . 
+. . f f d 1 8 8 1 1 1 1 1 d 6 . 
+. f f d 1 8 8 1 1 1 1 1 1 d d 6 
+f 6 d d d d d d d d d d d d d 6 
+. f 6 d d d d d d d d d d d 6 6 
+. . . 6 6 6 6 6 6 6 6 6 6 6 . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`];
+        }
+        return null;
+    })
+
+    helpers._registerFactory("song", function(name: string) {
+        switch(helpers.stringTrim(name)) {
 
         }
         return null;

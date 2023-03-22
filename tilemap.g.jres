@@ -4,6 +4,12 @@
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true
     },
+    "tile1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAYGEAAAAAAAAWYQAAAAAAYBFpDQAAAAAWkWkNAAAAYBGZaA0AAABgkYlmDQAAAAAWaGYNAAAAAJBmZg0AAAAAYGFmDQAAAAAAFmYNAAAAAABgmQ0AAAAAAGARDQAAAAAAAJYNAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "waveTile"
+    },
     "level1": {
         "id": "level1",
         "mimeType": "application/mkcd-tilemap",
